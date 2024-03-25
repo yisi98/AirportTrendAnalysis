@@ -21,6 +21,7 @@
 ### flights.csv : https://www.kaggle.com/code/fabiendaniel/predicting-flight-delays-tutorial/input?select=flights.csv
 ### World_Airports.csv : https://www.kaggle.com/datasets/eugeniyosetrov/airline-delays
 ### Airplane_Crashes_and_Fatalities_Since_1908_t0_2023.csv : https://www.kaggle.com/datasets/nayansubedi1/airplane-crashes-and-fatalities-upto-2023
+### daily_weather.parquet countries.csv cities.csv  : https://www.kaggle.com/datasets/guillemservera/global-daily-climate-data
 #### World_Airports.csv, airports.csv and Airports-Only.csv should be matched and merged together
 
 
