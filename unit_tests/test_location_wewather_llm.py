@@ -27,7 +27,6 @@ def test_successful_data_retrieval(mock_openai):
     avg_humidity = data.get("average_humidity_annual", "NA")
     avg_visibility = data.get("average_visibility_annual", "NA")
 
-
     assert avg_temperature == 25
     assert avg_wind_speed == 12
     assert avg_humidity == 72
