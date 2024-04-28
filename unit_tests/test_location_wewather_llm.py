@@ -1,7 +1,5 @@
-import pytest
 import json
 from unittest.mock import patch  # Import for mocking
-from location_weather_llm import obtain_location_data  # Replace 'my_module' with your module name
 
 @patch('location_weather_llm.OpenAI')  # Patch the OpenAI client
 def test_successful_data_retrieval(mock_openai):
