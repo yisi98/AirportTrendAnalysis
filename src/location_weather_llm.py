@@ -5,21 +5,10 @@ It will include prompting LLM API and formatting the response in a way to interp
 
 import json
 import os
-
-import numpy as np
 import pandas as pd
-from chronological import read_prompt, cleaned_completion
 from loguru import logger
 from openai import OpenAI
 from tqdm import tqdm
-
-
-def check_not_present_or_unsure(string):
-    if "not present" in string:
-        return "answer not present"
-    elif "Unsure" in string or "unsure" in string:
-        return "Unsure"
-    return string
 
 
 def obtain_location_data(location: str, country: str):

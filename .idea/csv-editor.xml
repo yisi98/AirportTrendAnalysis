@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\airport_dataset_with_llm_weather.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\saved_checkpoints\checkpoint_0.csv">
           <value>
             <Attribute>
