@@ -23,7 +23,22 @@
 ### daily_weather.parquet countries.csv cities.csv  : https://www.kaggle.com/datasets/guillemservera/global-daily-climate-data
 #### World_Airports.csv, airports.csv and Airports-Only.csv should be matched and merged together
 
+## Findings in this project
+<br>
+The project used datasets from multiple sources and analyses are conducted to determine which datasets can be used 
+together to obtain airport information and location.
+I have demonstrated data cleaning and filtering techniques and used LLMs for obtaining additional information.
+In addition, innovative techniques such as calculating absolute distances between coordinates were used to confirm 
+the locations are accurate. Anomalies are detected and removed.
+<br>
+I have discovered and confirmed that the location's weather data provided by Llama 3 is inaccurate and varies 
+widely with ChatGPT 4 answers.
 
+
+## Ideas for future development
+<br>
+The master dataset can be combined with flight data to understand if there are relationships between airport weather 
+and the delays associated with a particular route.
 
 
 ## Useful material:
